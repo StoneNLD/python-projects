@@ -1,30 +1,41 @@
 #!/usr/bin/env python
 
+import networkx as nx
 import matplotlib.pyplot as plt
-  
-# x-coordinates of left sides of bars 
 
+#create empty grapgh
+G = nx.Graph()
 
-left = [1, 2, 3, 4, 5]
-  
-# heights of bars
-height = [10, 24, 36, 40, 5]
-  
-# labels for bars
-tick_label = ['one', 'two', 'three', 'four', 'five']
-  
-# plotting a bar chart
-plt.bar(left, height, tick_label = tick_label,
-        width = 0.8, color = ['red', 'green'])
-  
-# naming the x-axis
-plt.xlabel('x - axis')
-# naming the y-axis.if g:
-    pass
-else:
-    pass
-# plot title
-plt.title('My bar chart!')
-  
-# function to show the plot
+print(G.nodes())
+print(G.edges())
+
+print(type(G.nodes()))
+print(type(G.edges()))
+
+#adding just one node:
+G.add_node("a")
+# a list of nodes:
+G.add_nodes_from(["b","c"])
+
+#add edges
+G.add_edge(1,2)
+edge = ("d", "e")
+G.add_edge(*edge)
+edge = ("a", "b")
+G.add_edge(*edge)
+
+#add other edges
+G.add_edges_from([("a","c"),("c","d"), ("a",1), (1,"d"), ("a",2)])
+
+#print the graph
+print("Nodes of graph: ")
+print(G.nodes())
+print("Edges of graph: ")
+print(G.edges())
+
+#draw the graph
+nx.draw(G)
+#save the graph as png
+# plt.savefig("simple_path.png")
+#print the graph
 plt.show()
