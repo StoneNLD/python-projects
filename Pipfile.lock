@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "b23357ab47cbb72fec45e04ab57a6846861d0ea958101d5aad304be15bb42b77"
+            "sha256": "9b946450fcf0b3c40c34c2bef9f8f945d60bb55be46a78a1aaf7fb8e1c3608fc"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -184,6 +184,21 @@
             "markers": "python_version >= '3.6'",
             "version": "==8.1.2"
         },
+        "pyftpdlib": {
+            "hashes": [
+                "sha256:fda655d81f29af52885ca2f8a2704134baed540f16d66a0b26e8fdfafd12db5e"
+            ],
+            "index": "pypi",
+            "version": "==1.5.6"
+        },
+        "pygeoip": {
+            "hashes": [
+                "sha256:1938b9dac7b00d77f94d040b9465ea52c938f3fcdcd318b5537994f3c16aef96",
+                "sha256:f22c4e00ddf1213e0fae36dc60b46ee7c25a6339941ec1a975539014c1f9a96d"
+            ],
+            "index": "pypi",
+            "version": "==0.3.2"
+        },
         "pyparsing": {
             "hashes": [
                 "sha256:c203ec8783bf771a155b207279b9bccb8dea02d8f0c9e5f8ead507bc3246ecc1",
@@ -207,6 +222,14 @@
             ],
             "markers": "python_version >= '2.7' and python_version not in '3.0, 3.1, 3.2, 3.3'",
             "version": "==1.15.0"
+        },
+        "urllib3": {
+            "hashes": [
+                "sha256:2f4da4594db7e1e110a944bb1b551fdf4e6c136ad42e4234131391e21eb5b0df",
+                "sha256:e7b021f7241115872f92f43c6508082facffbd1c048e3c6e2bb9c2a157e28937"
+            ],
+            "index": "pypi",
+            "version": "==1.26.4"
         }
     },
     "develop": {}

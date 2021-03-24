@@ -8,6 +8,9 @@ argparse = "*"
 matplotlib = "*"
 numpy = "*"
 networkx = "*"
+pyftpdlib = "*"
+urllib3 = "*"
+pygeoip = "*"
 
 [dev-packages]
 
