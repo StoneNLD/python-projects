@@ -5,6 +5,8 @@ name = "pypi"
 
 [packages]
 argparse = "*"
+matplotlib = "*"
+numpy = "*"
 
 [dev-packages]
 
