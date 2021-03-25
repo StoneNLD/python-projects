@@ -11,8 +11,12 @@ networkx = "*"
 pyftpdlib = "*"
 urllib3 = "*"
 pygeoip = "*"
+pillow = "*"
+pythonturtle = "*"
+wxpython = "*"
 
 [dev-packages]
+pylint = "*"
 
 [requires]
-python_version = "3.7"
+python_version = "3.9"
